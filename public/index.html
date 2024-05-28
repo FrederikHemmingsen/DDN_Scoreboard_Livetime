@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FPV Pilots Scoreboard</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pilot</th>
+                    <th>Race 1</th>
+                    <th>Race 2</th>
+                    <th>Race 3</th>
+                    <th>Race 4</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="scoreboard-body">
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+        <div class="admin-controls" >
+            <input
+                type="text"
+                id="auth-code"
+                placeholder="Enter authorization code"
+            />
+            <button onclick="enableEditing()">Enable Editing</button>
+            <button
+                id="save-button"
+                onclick="saveChanges()"
+                style="display: none"
+            >
+                SHIT PILOT SAVED
+            </button>
+            
+        <script src="script.js"></script>
+        
+    </body>
+</html>
